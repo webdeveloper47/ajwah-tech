@@ -1,0 +1,203 @@
+// header_area start
+.header_area {
+    border: $border;
+    background-color: $master_color;
+    .header_area_content {
+        border: $border;
+        display: flex;
+        // menu_bar start
+        .menu_bar {
+            border: $border;
+            padding-top: 35px;
+            padding-bottom: 5px;
+
+            a {
+                border: $border;
+                &:hover{
+                    i{
+                        color: $blue;
+                    }
+                   
+                }
+                i {
+                    border: $border;
+                    font-size: 40px;
+                    color: $white;
+                    transition-duration: .4s;
+                }
+            }
+        }
+        // menu_bar end
+        // logo area start
+        .logo {
+            border: $border;
+            margin: 0px 35px;
+            align-items: center;
+            display: flex;
+            a {
+                img {
+                    border: $border;
+                }
+            }
+        }
+        // logo area end
+        // search_area start
+        .search_area {
+            border: $border;
+            position: relative;
+            margin-top: 15px;
+            margin-right: 25px;
+            input {
+                border: $border;
+                width: 750px;
+                outline: 0;
+                color: $black;
+                border-radius: 4px;
+                font-size: 14px;
+                padding: 5px 200px 5px 10px;
+                font-family: $Poppins_Light;
+                border: 1px solid #b0b0b0;
+
+            }
+            // all_item_area start
+            .all_item_area {
+                border: $border;
+                display: flex;
+                width: 120px;
+                height: 31px;
+                background-color: rgb(179 179 200 / 29%);
+                position: absolute;
+                top: 0;
+                right: 45px;
+                justify-content: space-between;
+                .text_area {
+                    border: $border;
+                    padding-left: 10px;
+                    align-items: center;
+                    display: flex;
+                    .text {
+                        border: $border;
+                        font-size: 11px;
+                        font-family: $Poppins_Regular;
+                        color: $blue;
+                    }
+                }
+                .down_logo {
+                    border: $border;
+                    align-items: center;
+                    display: flex;
+                    padding-right: 10px;
+                    i {
+                        border: $border;
+                        font-size: 11px;
+                        color: $blue;
+                    }
+                }
+            }
+            // all_item_area end
+
+            // button_area start
+            .button_area {
+                border: $border;
+                background-color: transparent;
+                position: absolute;
+                top: 0px;
+                right: 0;
+                padding: 3px 10px;
+                border-radius: 4px;
+                margin-right: 1px;
+                i {
+                    border: $border;
+                    font-size: 14px;
+                    color: #6c6c6c;
+                }
+            }
+            // button_area end
+        }
+        // search_area end
+        // shopping_card_area srart
+        .shopping_card_area {
+            border: $border;
+            display: flex;
+            margin-top: 17px;
+            position: relative;
+            .card_logo {
+                border: $border;
+                width: 28px;
+                height: 28px;
+                background-color: $white;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                border-radius: 50%;
+                margin-right: 7px;
+                i {
+                    border: $border;
+                    font-size: 15px;
+                    color: $blue;
+                }
+            }
+            .price_area {
+                border: $border;
+                .taka_icon {
+                    border: $border;
+                    i {
+                        border: $border;
+                        font-size: 12px;
+                        color: $white;
+                    }
+                }
+                .taka {
+                    border: $border;
+                    font-size: 12px;
+                    font-family: $Poppins_Light;
+                    color: $white;
+                }
+            }
+            // count_number_area start
+            .count_number_area {
+                border: $border;
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                background-color: white;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+                position: absolute;
+                top: -10px;
+                right:-15px;
+                .count_number {
+                    border: $border;
+                    font-size: 12px;
+                    font-family: $Poppins_Light;
+                    color: $blue;
+                }
+            }
+            // count_number_area end
+        }
+        // shopping_card_area end
+        // login_and_sign-up_area start
+        .login_and_sign-up_area {
+            border: $border;
+            margin-left: auto;
+            margin-top: 20px;
+            .text{
+                border: $border;
+                font-size: 12px;
+                color: $white;
+                font-size: $Poppins_Regular;
+                a{
+                    border: $border;
+                    transition-duration: .4s;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+        // login_and_sign-up_area end
+    }
+}
+// header_area end
